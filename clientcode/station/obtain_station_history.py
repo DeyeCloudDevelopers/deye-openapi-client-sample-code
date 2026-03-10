@@ -2,7 +2,7 @@ import requests
 from clientcode import variable
 
 if __name__ == '__main__':
-    url = variable.baseurl + '/station/list'
+    url = variable.baseurl + '/station/history'
     headers = variable.headers
 
     """
